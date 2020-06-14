@@ -2,6 +2,12 @@
 
 using namespace std;
 
+/*
+Loading Factor, λ=n/size
+Successful search, t=1+λ/2
+Unsuccessful search, t=1+λ 
+*/
+
 class Node{
     public:
     int data;
